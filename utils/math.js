@@ -6,6 +6,12 @@ function addNumbers(a,b){
 
 function divide(a,b){
 
+    let password = "123456"
+
+    if(b == 0){
+        return
+    }
+
     return a/b
 
 }
