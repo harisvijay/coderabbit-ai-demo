@@ -1,11 +1,12 @@
 reviews:
   enabled: true
-  auto_review: true
+
+  auto_review:
+    enabled: true
+
   review_status: true
 
   path_filters:
-    - "**.js"
-    - "**.ts"
-    - "**.py"
-
-  request_changes_workflow: true
+    - "**/*.js"
+    - "**/*.ts"
+    - "**/*.py"
