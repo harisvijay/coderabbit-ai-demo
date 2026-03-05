@@ -1,4 +1,12 @@
 reviews:
   enabled: true
-  auto_review: true
-  language: en
+
+  auto_review:
+    enabled: true
+
+  review_status: true
+
+  path_filters:
+    - "**/*.js"
+    - "**/*.ts"
+    - "**/*.py"
