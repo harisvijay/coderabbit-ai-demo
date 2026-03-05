@@ -1,0 +1,9 @@
+{
+  "name": "coderabbit-ai-demo",
+  "version": "1.0.0",
+  "description": "Demo project for CodeRabbit AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/math.test.js"
+  }
+}
